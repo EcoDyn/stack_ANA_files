@@ -14,7 +14,7 @@ out.folder <- "GoogleDrive/EcoDyn/People/Joao/teste_read_precip/"
 in.files <- list.files(in.folder, pattern = "csv$", full.names=T)
 
 # extract names without path and extension
-in.names <- rasnames <- basename(file_path_sans_ext(in.files))
+in.names <- basename(file_path_sans_ext(in.files))
 
 for (f in c(1:length(in.files))){
   
